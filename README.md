@@ -67,3 +67,6 @@ Machine-readable versions of the data and analysis scripts are also provided so 
 
 Purvi Kaasam  
 Sreenidhi International School
+
+- `run_manifest.json`  
+  Collection record: model snapshot (gpt-4o-2024-08-06), date (4 September 2026), API settings, and rule applicability counts.
