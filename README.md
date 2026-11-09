@@ -70,3 +70,9 @@ Sreenidhi International School
 
 - `run_manifest.json`  
   Collection record: model snapshot (gpt-4o-2024-08-06), date (4 September 2026), API settings, and rule applicability counts.
+
+  - `make_figures.py`  
+  Regenerates Figures 1, 2 and 5 exactly as they appear in the paper from `coding_grid-csv.csv` (run: `python make_figures.py`).
+
+- `figure_1_rule_violation_rates.png`, `figure_2_actionability.png`, `figure_5_framing.png`  
+  Final figures used in the paper.
