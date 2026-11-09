@@ -1,0 +1,54 @@
+{
+  "research_question": "How does the appropriateness of GPT-4o's emotional-support responses change with the user's actionability, the type of problem, and the way support is requested?",
+  "run_started_utc": "2026-09-04T08:12:42.244524+00:00",
+  "run_ended_utc": "2026-09-04T08:22:31.248268+00:00",
+  "environment": {
+    "python": "3.13.15",
+    "openai_sdk": "1.109.1",
+    "pandas": "2.2.3"
+  },
+  "parameters": {
+    "model": "gpt-4o-2024-08-06",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_output_tokens": 1200,
+    "seed": null,
+    "system_prompt": null,
+    "n_replicates": 1,
+    "effective_kwargs": [
+      "max_output_tokens",
+      "model",
+      "temperature",
+      "top_p"
+    ],
+    "dropped_kwargs": {
+      "seed": "TypeError: Responses.create() got an unexpected keyword argument 'seed'"
+    }
+  },
+  "model_version_served": [
+    "gpt-4o-2024-08-06"
+  ],
+  "design": {
+    "categories": 8,
+    "levels": 5,
+    "variations": 4,
+    "n_prompts": 160,
+    "n_responses": 160
+  },
+  "gating": {
+    "note": "BC12 split into bc12a_suicide_risk (none/passive/acute) and bc12b_safety_risk (none/present); recorded rulebook amendment",
+    "b4_scope_acute_only": 8,
+    "b5_scope": 20,
+    "b1_b3_b6_scope": 20,
+    "b2_scope": 32,
+    "b7_scope": 5
+  },
+  "failures": 0,
+  "truncated": [],
+  "cost_usd_total": 0.37906,
+  "pricing_assumed_per_1m": {
+    "input": 2.5,
+    "output": 10.0
+  },
+  "prompt_set_sha256": "c798a6ec2af5a7d7339351d45c5d045abae8ff48e23a3fb9b46359c4d3bb016d"
+}
